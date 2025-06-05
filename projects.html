@@ -1,7 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Projects | Rashmi Mishra</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<h2>My Projects</h2>
-<ul>
-  <li><strong>Student Management System</strong> - PHP + MySQL</li>
-  <li><strong>Weather App</strong> - React + API</li>
-  <li><strong>Online Quiz App</strong> - HTML + JS + LocalStorage</li>
-</ul>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9fafb;
+    }
+    .project-card {
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+    }
+    .project-img {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      height: 180px;
+      object-fit: cover;
+      width: 100%;
+    }
+    .container {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="bg-dark text-white text-center py-4 mb-5">
+    <h1>My Projects</h1>
+  </header>
+
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="card project-card">
+          <img src="images/student-management.png" alt="Student Management System" class="project-img" />
+          <div class="card-body">
+            <h5 class="card-title">Student Management System</h5>
+            <p class="card-text">Built with PHP and MySQL to manage student records and attendance efficiently.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="card project-card">
+          <img src="images/weather-app.png" alt="Weather App" class="project-img" />
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">React-based weather application fetching real-time data from APIs.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="card project-card">
+          <img src="images/online-quiz.png" alt="Online Quiz App" class="project-img" />
+          <div class="card-body">
+            <h5 class="card-title">Online Quiz App</h5>
+            <p class="card-text">Interactive quiz platform using HTML, JavaScript, and browser LocalStorage.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Project 4 -->
+      <div class="col-md-4">
+        <div class="card project-card">
+          <img src="images/e-commerce.png" alt="E-Commerce Website" class="project-img" />
+          <div class="card-body">
+            <h5 class="card-title">E-Commerce Website</h5>
+            <p class="card-text">Full-stack e-commerce site with user authentication and shopping cart.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Project 5 -->
+      <div class="col-md-4">
+        <div class="card project-card">
+          <img src="images/portfolio.png" alt="Personal Portfolio" class="project-img" />
+          <div class="card-body">
+            <h5 class="card-title">Personal Portfolio</h5>
+            <p class="card-text">Responsive portfolio website showcasing skills, projects, and services.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Project 6 -->
+      <div class="col-md-4">
+        <div class="card project-card">
+          <img src="images/blog-app.png" alt="Blog Application" class="project-img" />
+          <div class="card-body">
+            <h5 class="card-title">Blog Application</h5>
+            <p class="card-text">Blog platform with post creation, editing, and comment features using React.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
