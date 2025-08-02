@@ -36,11 +36,27 @@
     .contact p {
       margin: 5px 0;
     }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #0d47a1;
+    }
   </style>
 </head>
 <body>
 
-  <h1>MRS. RASHMI PRAVA MISHRA</h1>
+  <div class="header">
+    <h1>MRS. RASHMI PRAVA MISHRA</h1>
+<img class="profile-photo" src="rashmi-profile.jpg" alt="Rashmi Prava Mishra">
+    <!-- Replace the above src URL with your actual photo URL or path -->
+  </div>
 
   <div class="contact">
     <p>📞 Mobile: +91 9337919838 | WhatsApp: +91 7873399874</p>
@@ -83,7 +99,6 @@
       <li>Hospital and restaurant management systems.</li>
     </ul>
 
-    <!-- Add others in similar format -->
     <p><em>... Full work history available in downloadable resume or extended version.</em></p>
   </div>
 
